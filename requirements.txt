@@ -1,0 +1,41 @@
+# ==========================================
+# FASE 1: FUNDAMENTOS & ENGENHARIA DE SOFTWARE
+# ==========================================
+pandas>=2.0.0
+numpy>=1.24.0
+pydantic>=2.0.0
+pyarrow>=12.0.0            # Suporte para escrita/leitura eficiente de Parquet
+fastparquet>=2023.4.0
+
+# Qualidade de Código & Testes Unitários
+pytest>=7.3.0
+pytest-cov>=4.1.0          # Relatórios de cobertura de testes
+ruff>=0.1.0                # Linter e formatador de código ultrarrápido
+
+# ==========================================
+# FASE 2 & 3: PROCESSAMENTO DISTRIBUÍDO & DATA LAKES
+# ==========================================
+pyspark>=3.4.0
+delta-spark>=2.4.0         # Suporte para tabelas Delta Lake locais
+chispa>=0.7.0              # Framework para testes unitários em PySpark DataFrames
+
+# ==========================================
+# FASE 4 & 5: AZURE CLOUD, DATA QUALITY & CI/CD
+# ==========================================
+# SDKs de Conectividade Azure
+azure-storage-file-datalake>=12.11.0
+azure-identity>=1.13.0
+azure-keyvault-secrets>=4.7.0
+
+# Governança & Data Quality
+great-expectations>=0.17.0
+
+# Ferramentas de Deploy & Automação Databricks
+databricks-cli>=0.17.0
+databricks-sdk>=0.12.0
+
+# ==========================================
+# UTILITÁRIOS E AMBIENTE DE DESENVOLVIMENTO
+# ==========================================
+python-dotenv>=1.0.0       # Gestão de variáveis de ambiente (.env)
+ipykernel>=6.23.0          # Execução de notebooks Jupyter no VS Code
